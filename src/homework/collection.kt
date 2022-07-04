@@ -36,7 +36,7 @@ fun main() {
 
     var user= listOf(1,2,3,4,5,9,7,85,102)
     println(user.size)
-    var user_item= mapOf<String,Any>("name" to "Bermet", "Age" to 30, "profession" to "teacher" )
+    var user_item= mapOf<String,Any>("name" to "Someone", "Age" to 0, "profession" to "someone" )
     for (el in user_item)
         println(el)
     val item_list= mutableListOf<Any>("green", "yellow", "blue", "red","black","purple","pink","white")
