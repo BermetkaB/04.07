@@ -39,6 +39,9 @@ fun main() {
     var user_item= mapOf<String,Any>("name" to "Bermet", "Age" to 30, "profession" to "teacher" )
     for (el in user_item)
         println(el)
+    val item_list= mutableListOf<Any>("green", "yellow", "blue", "red","black","purple","pink","white")
+    println(item_list)
+
 
 
 }
