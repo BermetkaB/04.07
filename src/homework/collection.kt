@@ -2,6 +2,7 @@ package homework
 
 import learn.Cat
 import learn.User
+import learn.Worker
 
 //fun main() {
 
@@ -67,7 +68,11 @@ import learn.User
        println(water.priceOfBook)
        println(water.yearOfAdd)*/
 
-       val cat=Cat("Kitty",3,4f)
-       println(cat.name)
-
+      // val cat=Cat("Kitty",3,4f)
+     //  println(cat.name)
+       val programmer=Worker("Nursultan","programmer", 2021)
+       programmer.printInfo()
+       }
+       fun Worker.printInfo(){
+          println("Name: $name, profession: $profession, experience:$experience, $startYear ")
     }
