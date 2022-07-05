@@ -1,8 +1,9 @@
 package homework
 
+import learn.Cat
 import learn.User
 
-fun main() {
+//fun main() {
 
     /* var items:Array<Int> = arrayOf(2,5,6,78,45,9);
     val someArray:Array<String> = arrayOf("Daniel", "Adina", "Zhanybek")
@@ -34,7 +35,7 @@ fun main() {
   //   return "Hello world"
 
  //}*/
- val bermet=User("Bermet","Bainaeva")
+/* val bermet=User("Bermet","Bainaeva")
     println(bermet.firstName)
     println(bermet.lastName)
 
@@ -52,4 +53,21 @@ fun main() {
 
 
 
-}
+}*/
+    fun main() {
+       /*val bishkek= Unit("Bishkek", 1500000)
+       println(bishkek.city)
+       println(bishkek.population)
+
+       val russia= Unit("Moscow",7000000)
+       println(russia.city)
+       println(russia.population)*/
+/*val water=Books("alive water",0,0)
+       println(water.nameofBook)
+       println(water.priceOfBook)
+       println(water.yearOfAdd)*/
+
+       val cat=Cat("Kitty",3,4f)
+       println(cat.name)
+
+    }
