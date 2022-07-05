@@ -36,6 +36,11 @@ fun main() {
  //}*/
  val bermet=User("Bermet","Bainaeva")
     println(bermet.firstName)
+    println(bermet.lastName)
+
+    val adina=User("Adina","Dastan kyzy")
+    println(adina.firstName )
+    println(adina.lastName)
 
     var user= listOf(1,2,3,4,5,9,7,85,102)
     println(user.size)
