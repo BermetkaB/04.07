@@ -1,5 +1,7 @@
 package homework
 
+import learn.User
+
 fun main() {
 
     /* var items:Array<Int> = arrayOf(2,5,6,78,45,9);
@@ -32,7 +34,8 @@ fun main() {
   //   return "Hello world"
 
  //}*/
-
+ val bermet=User("Bermet","Bainaeva")
+    println(bermet.firstName)
 
     var user= listOf(1,2,3,4,5,9,7,85,102)
     println(user.size)
